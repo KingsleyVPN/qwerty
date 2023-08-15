@@ -955,7 +955,7 @@ user_name=`mysql -u $USER -p$PASS -D $DB -h $HOST -sN -e "$Query"`
 [ "$user_name" != '' ] && [ "$user_name" = "$username" ] && echo "user : $username" && echo 'authentication ok.' && exit 0 || echo 'authentication failed.'; exit 1
 EOM
 #Prem.sh file mo dito boss
-wget -O /usr/local/sbin/ssh.php https://raw.githubusercontent.com/freenetsapinas/right/main/prem.sh -q
+wget -O /usr/local/sbin/ssh.php https://raw.githubusercontent.com/KingsleyVPN/qwerty/main/prem.sh -q
 }
 
 vipcategory () {
