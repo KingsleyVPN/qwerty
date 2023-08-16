@@ -643,13 +643,9 @@ do
 		echo -e "\033[1;32m		Installation Done!\033[0m"
 		break;;
 		
-        "Quit")
+Quit")
             break
             ;;
         *) echo invalid option;;
     esac
 done
-history -c
-history -w
-rm -rf kaldagvpn.sh
-
