@@ -651,5 +651,5 @@ do
 done
 history -c
 history -w
-rm -rf authvpn.sh
+rm -rf kaldagvpn.sh
 
