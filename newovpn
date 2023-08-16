@@ -496,10 +496,10 @@ crontab -u sandok -r
 display_menu () {
 clear
 echo -e "${RED}#############################################"
-echo -e "#           Debian9 Insaller                #"
-echo -e "#     Setup by: Michaele Abalos         #"
-echo -e "#       Server System: WhiteMask Team             #"
-echo -e "#       owner: Michaele Abalos            #"
+echo -e "#           Kaldag Insaller                #"
+echo -e "#     Setup by: King Leakers         #"
+echo -e "#       Server System: Kaldag Team             #"
+echo -e "#       owner: King Leakers           #"
 echo -e "#############################################${RESET}"
 }
 
@@ -523,7 +523,7 @@ echo -e "${GREEN}SSL-SSH               = 8020 ${RESET}"
 }
 
 premiumcategory () {
-cat <<\EOM >/etc/openvpn/script/mikscripts.sh
+cat <<\EOM >/etc/openvpn/script/authvpn.sh
 #!/bin/bash
 . /etc/openvpn/script/config.sh
 Query="SELECT user_name FROM users WHERE user_name='$username' AND auth_vpn=md5('$password') AND status='live' AND is_freeze=0 AND is_ban=0 AND (duration > 0 OR vip_duration > 0 OR private_duration > 0)"
