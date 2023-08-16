@@ -327,10 +327,10 @@ EOM6
 #Dito boss ung DB ng OVPN Change mo na lang boss
 cat <<\EOM7 >/etc/openvpn/script/config.sh
 #!/bin/bash
-HOST='156.67.222.123'
-USER='u217294747_pannel'
-PASS='9x:NA?5hg$'
-DB='u217294747_ypannel'
+HOST='localhost'
+USER='radzglob_sponsored'
+PASS='radzglob_sponsored'
+DB='radzglob_sponsored'
 EOM7
 
 cat <<\EOM8 >/etc/openvpn/script/connect.sh
